@@ -2,8 +2,8 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from "recha
 
 const data = [
   { name: "Subscriptions", value: 5643 },
-  { name: "Ads", value: 2345 },
-  { name: "APIs", value: 3456 },
+  { name: "Ads", value: 2845 },
+  { name: "APIs", value: 3612 },
 ];
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];
