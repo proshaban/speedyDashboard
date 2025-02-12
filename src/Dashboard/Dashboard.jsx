@@ -1,7 +1,7 @@
-import GrowthChart from "./GrowthChart";
-import RecentStreamsTable from "./RecentStreamsTable";
-import RevenuePieChart from "./RevenuePieChart";
-import TopStreamedSongsChart from "./TopStreamedSongsChart";
+import GrowthChart from "./GrowthChart.jsx";
+import RecentStreamsTable from "./RecentStreamsTable.jsx";
+import RevenuePieChart from "./RevenuePieChart.jsx";
+import TopStreamedSongsChart from "./TopStreamedSongsChart.jsx";
 
 const matricsData = [
     {
