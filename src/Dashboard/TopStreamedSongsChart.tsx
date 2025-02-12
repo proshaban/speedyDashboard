@@ -1,11 +1,11 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
 
 const data = [
-  { name: "Song A", streams: 5000 },
-  { name: "Song B", streams: 4200 },
-  { name: "Song C", streams: 3800 },
-  { name: "Song D", streams: 3500 },
-  { name: "Song E", streams: 3100 },
+  { "name": "Blinding Lights", "artist": "The Weeknd", "streams": 4701 },
+  { "name": "Shape of You", "artist": "Ed Sheeran", "streams": 4215 },
+  { "name": "Someone You Loved", "artist": "Lewis Capaldi", "streams": 3792 },
+  { "name": "As It Was", "artist": "Harry Styles", "streams": 3754 },
+  { "name": "Starboy", "artist": "The Weeknd", "streams": 3736 }
 ];
 
 const TopStreamedSongsChart = () => {

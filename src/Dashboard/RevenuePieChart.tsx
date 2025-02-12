@@ -1,9 +1,9 @@
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from "recharts";
 
 const data = [
-  { name: "Subscriptions", value: 5000 },
-  { name: "Ads", value: 2000 },
-  { name: "APIs", value: 3000 },
+  { name: "Subscriptions", value: 5643 },
+  { name: "Ads", value: 2345 },
+  { name: "APIs", value: 3456 },
 ];
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];

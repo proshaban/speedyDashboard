@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, ArrowUp } from "lucide-react";
 import { useState } from "react";
 
 const initialData = [
@@ -287,16 +287,28 @@ const RecentStreamsTable = () => {
         <thead>
           <tr className="bg-gray-100">
             <th className="border w-1/4 p-2 cursor-pointer" onClick={() => handleSort("song")}>
-              Song Name
+            <span>Song Name</span>
+            {
+              (sortBy == "song")?<ArrowDown /> : <ArrowUp />
+            }
             </th>
             <th className="border w-1/4 p-2 cursor-pointer" onClick={() => handleSort("artist")}>
-              Artist
+              <span>Artist</span>
+              {
+              (sortBy == "artist")?<ArrowDown /> : <ArrowUp />
+            }
             </th>
             <th className="border p-2 cursor-pointer" onClick={() => handleSort("dateStream")}>
-              Date Streamed
+            <span>Date Streamed</span>
+            {
+              (sortBy == "dateStream")?<ArrowDown /> : <ArrowUp />
+            }
             </th>
             <th className="border p-2 cursor-pointer" onClick={() => handleSort("streams")}>
-              Stream Count
+            <span>Stream Count</span>
+            {
+              (sortBy == "streams")?<ArrowDown /> : <ArrowUp />
+            }
             </th>
             <th className="border p-2">User ID</th>
           </tr>
