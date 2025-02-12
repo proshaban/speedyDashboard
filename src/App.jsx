@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import Dashboard from "./Dashboard/Dashboard";
 import Sidebar from "./Components/SideBar";
 import AboutUs from "./AboutUS/AboutUs";
+// @ts-ignore
 
 const App = () => {
   const [open, setOpen] = useState(false);
