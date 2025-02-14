@@ -58,8 +58,8 @@ const App = () => {
 
         {/* Main Content */}
         <main className="flex-1 p-6 overflow-auto w-full bg-slate-100 h-[100vh] overflow-y-auto">
-          <div className="flex items-center gap-4">
-            <button className="md:hidden top-4 left-4 p-2 bg-gray-800 text-white rounded" onClick={() => setOpen(true)}>
+          <div className="flex items-center gap-4 relative">
+            <button className="md:hidden absolute top-0 right-0 p-2 bg-gray-800 text-white rounded" onClick={() => setOpen(true)}>
               <Menu className="h-6 w-6" />
             </button>
           </div>
